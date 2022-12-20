@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Jardin de Lujan</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <span class="header__title" >El Jardin de Lujan</span>
+        <nav class="nav">
+            <a class="nav__link" href="#">Inicio</a>
+            <a class="nav__link" href="#">Nuestras plantas</a>
+            <a class="nav__link" href="#">Contacto</a>
+        </nav>
+        <img class="header__logo" src="./assets/images/logo.png" alt="">
+    </header>
+    <main class="container">
+        <section class="plants">
+            <h1 class="plants__title">Nuestras plantas</h1>
+            <div class="plants__filter">
+                <h4>Filtrar</h4>
+                <a class="plants__link" href="#">De interior</a>
+                <a class="plants__link" href="#">De exterior</a>
+                <a class="plants__link" href="#">Pocos cuidados</a>
+                <a class="plants__link" href="#">Mucha luz</a>
+                <a class="plants__link" href="#">Poca luz</a>
+            </div>
+            <div class="plant">
+                <h3 class="plant__title">Monstera</h3>
+                <img class="plant__img" src="./assets/images/monstera.png" alt="">
+                <ul class="plant__info">
+                    <li>hojas grandes</li>
+                    <li>tiene fruto</li>
+                    <li>interior o exterior</li>
+                </ul>
+            </div>
+            <div class="plant">
+                <h3 class="plant__title">Calathea</h3>
+                <img class="plant__img" src="./assets/images/calathea.png" alt="">
+                <ul class="plant__info">
+                    <li>hojas multicolor</li>
+                    <li>selvatica</li>
+                    <li>plantas de interior</li>
+                </ul>
+            </div>
+            <div class="plant">
+                <h3 class="plant__title">Strelitzia Nicolai</h3>
+                <img class="plant__img" src="./assets/images/strelitzia-nicolai.png" alt="">
+                <ul class="plant__info">
+                    <li>hojas grandes</li>
+                    <li>tiene flor</li>
+                    <li>jardines y parques</li>
+                </ul>
+            </div>
+        </section>
+        <div class="info">
+            <img class="info__img_left" src="./assets/images/macetas.jpeg" alt="">
+            <section class="info__content">
+                <h2 class="info__title">Encontra la planta ideal para vos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Cuidados</th>
+                        </tr>
+                        <tr>
+                            <th>Muchos</th>
+                            <th>Intermedios</th>
+                            <th>Pocos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Azalea</td>
+                            <td>Sanseviera</td>
+                            <td>Ficus</td>
+                        </tr>
+                        <tr>
+                            <td>Orquidea</td>
+                            <td>Aloe Vera</td>
+                            <td>Potus</td>
+                        </tr>
+                        <tr>
+                            <td>Calathea</td>
+                            <td>Helecho</td>
+                            <td>Cinta</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>*basado en necesidad de luz y agua</p>
+            </section>
+            <img class="info__img_right" src="./assets/images/macetas.jpeg" alt="">
+        </div>
+    </main>
+    <footer class="footer">
+        <span class="footer__title">Cohort 41</span>
+        <form action="./showData.html">
+            <fieldset class="footer__form">
+                <legend>Suscribete al newsletter</legend>
+                <label for="email">Mail:</label>
+                <input type="email" name="email" id="email">
+                <div>
+                    <p>Quiero recibirlo:</p>
+                    <label for="semanalmente">Semanalmente <input type="radio" name="periodo" id="semanalmente" value="semanalmente"></label>
+                    <label for="mensualmente">Mensualmente <input type="radio" name="periodo" id="mensualmente" value="mensualmente"></label>
+                </div>
+
+                <input type="submit" value="Enviar!">
+            </fieldset>
+        </form>
+    </footer>
+</body>
+</html>
